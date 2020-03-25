@@ -36,7 +36,11 @@ npm install --save @jaid/render-dead-by-daylight-build@^1.1.0
 
 ## Example
 
+## Example
 
+![Example Screenshot](./example.png)
+
+This image is rendered by this code:
 ```javascript
 import renderDeadByDaylightBuild from "render-dead-by-daylight-build"
 import Jimp from "jimp"
