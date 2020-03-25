@@ -38,7 +38,7 @@ npm install --save @jaid/render-dead-by-daylight-build@^1.1.0
 
 ## Example
 
-![Example Screenshot](./example.png)
+![Example Screenshot](./readme/example.png)
 
 This image is rendered by this code:
 ```javascript
