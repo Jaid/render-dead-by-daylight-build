@@ -27,6 +27,9 @@ export default async objectIds => {
     const page = await browser.newPage()
     await page.goto(`https://entity.works/showcase/${objectIds.join(",")}`, {waitUntil: "domcontentloaded"})
     await page.waitForSelector(selector)
+    await page.addStyleTag({
+      content: "body {background: transparent}",
+    })
     await delay(1000)
     const element = await page.$(selector)
     const buffer = await element.screenshot({
