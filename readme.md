@@ -48,11 +48,6 @@ const jimp = await Jimp.read(screenshotBuffer)
 await jimp.writeAsync("./build.png")
 ```
 
-Variable `result` will be:
-
-```javascript
-1549410770
-```
 
 
 
