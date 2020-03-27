@@ -1,6 +1,5 @@
 /** @module render-dead-by-daylight-build */
 
-import delay from "delay"
 import puppeteer from "puppeteer"
 
 const selector = "#showcase"
