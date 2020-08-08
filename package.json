@@ -40,5 +40,15 @@
     "url": "https://github.com/jaid/render-dead-by-daylight-build"
   },
   "homepage": "https://github.com/Jaid/render-dead-by-daylight-build",
-  "keywords": []
+  "keywords": [
+    "dbd",
+    "dead-by-daylight",
+    "image",
+    "image-generation",
+    "lib",
+    "library",
+    "render",
+    "util",
+    "utility"
+  ]
 }
